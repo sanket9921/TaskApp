@@ -5,17 +5,15 @@ const Header = () => {
     const navigate = useNavigate();
 
     const handleLogout = () => {
-        // Remove token from local storage
         localStorage.removeItem('token');
-        // Navigate to login page
         navigate('/login');
     };
 
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container">
-                <a className="navbar-brand fw-bold text-primary" href="/">
-                    TaskAPP
+                <a className="navbar-brand fw-bold  text-primary" href="/">
+                    <h2>TaskAPP</h2>
                 </a>
                 <button
                     className="navbar-toggler"
