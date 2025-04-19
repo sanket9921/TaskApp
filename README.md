@@ -27,8 +27,8 @@ TaskApp/
 ## ⚙️ Prerequisites
 
 - Node.js (v16+ recommended)
-- MongoDB (local or Atlas)
-- npm or yarn
+- MongoDB (local)
+- npm
 
 ---
 
