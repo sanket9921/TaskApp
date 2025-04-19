@@ -83,7 +83,8 @@ A simple Task Tracker web app built with the MERN stack (MongoDB, Express.js, Re
 | POST   | `/api/tasks`           | Create new task       |
 | PUT    | `/api/tasks/:id`       | Update task           |
 | DELETE | `/api/tasks/:id`       | Delete task           |
-| PUT    | `/api/tasks/:id/status`| Update task status    |
+| PUT    | `/api/tasks/:id/`      | Update task           |
+| PATCH  | `/api/tasks/:id`       | update task status    |
 
 ---
 
