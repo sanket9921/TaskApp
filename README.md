@@ -7,7 +7,7 @@ A simple Task Tracker web app built with the MERN stack (MongoDB, Express.js, Re
 ## 📁 Project Structure
 
 ```
-task-tracker/
+TaskApp/
 ├── backend   → Express.js + MongoDB + JWT REST API
 └── frontend  → React.js + Bootstrap user interface
 
